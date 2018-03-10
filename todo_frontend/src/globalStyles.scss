@@ -1,0 +1,84 @@
+$fonts: 'Permanent Marker', cursive;
+$font-color: grey;
+$header-font-color: white;
+$accent-color: black;
+$background-color: #ffff8a;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $fonts;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  max-width:400px;
+  width: 100%;
+  min-height: 500px;
+  background-color: $background-color;
+  border: 1.5px solid $accent-color;
+  margin: 5% auto auto auto;
+}
+
+.App-header {
+  background-color: $accent-color;
+  height: auto;
+  padding: 15px;
+  color: $header-font-color;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin: auto;
+}
+
+// todo.jsx styles
+.todo {
+    text-align: left;
+    margin: 0 40px 0 30px;
+
+    &:first-child {
+        margin-top: 20px;
+    }
+    
+    label {
+        color: $font-color;
+    }
+}
+
+// add.jsx styles
+.addTaskForm {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+
+    input {
+        background: none;
+        border: none;
+        border-bottom: 2px dashed $font-color;
+    }
+
+    label {
+        color: $font-color;
+        font-size: 1em;  
+    }
+
+    button {
+        font-family: $fonts; 
+        color: $font-color;
+        font-size: 1em;   
+        background: none;
+        border: none;
+    }
+ }
+
+//  delete.jsx styles
+.deleteBtn {
+    color: $font-color;
+    position: absolute;
+    right: 10px;
+    top: 85px;
+}
+
+

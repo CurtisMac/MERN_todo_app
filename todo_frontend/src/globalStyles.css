@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/doodles.png');
+  /* This pattern was downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ */
+  font-family: "Permanent Marker", cursive; }
+
+.App {
+  text-align: center;
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  min-height: 500px;
+  background-color: #ffff8a;
+  border: 1.5px solid black;
+  margin: 5% auto auto auto; }
+
+.App-header {
+  background-color: black;
+  height: auto;
+  padding: 15px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em;
+  margin: auto; }
+
+.todo {
+  text-align: left;
+  margin: 0 40px 0 30px; }
+  .todo:first-child {
+    margin-top: 20px; }
+  .todo label {
+    color: grey; }
+
+.addTaskForm {
+  position: absolute;
+  bottom: 10px;
+  width: 100%; }
+  .addTaskForm input {
+    background: none;
+    border: none;
+    border-bottom: 2px dashed grey; }
+  .addTaskForm label {
+    color: grey;
+    font-size: 1em; }
+  .addTaskForm button {
+    font-family: "Permanent Marker", cursive;
+    color: grey;
+    font-size: 1em;
+    background: none;
+    border: none; }
+
+.deleteBtn {
+  color: grey;
+  position: absolute;
+  right: 10px;
+  top: 85px; }

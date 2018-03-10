@@ -32,6 +32,7 @@ todosRouter.delete('/delete', (req, res) => {
 })
 
 todosRouter.delete('/del_complete', (req, res) => {
+    //Confirmation not currently implemented, for future version
     let { confirm } = req.body
     Func.deleteComplete((status)=>{
         res.json(status)
